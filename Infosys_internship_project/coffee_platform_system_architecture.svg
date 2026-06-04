@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1080" viewBox="0 0 760 1080" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#202020"/>
+    </marker>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1.2" stdDeviation="1.4" flood-color="#b8b8b8" flood-opacity="0.5"/>
+    </filter>
+    <style>
+      .title{font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:700;fill:#111}
+      .box{fill:#f3f3f3;stroke:#8e8e8e;stroke-width:1.4;filter:url(#softShadow)}
+      .boxText{font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:600;fill:#2a2a2a}
+      .smallText{font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:600;fill:#2a2a2a}
+      .line{stroke:#202020;stroke-width:1.7;fill:none;marker-end:url(#arrow)}
+      .plainLine{stroke:#202020;stroke-width:1.7;fill:none}
+      .divider{stroke:#4c4c4c;stroke-width:6;stroke-linecap:round}
+      .dot{fill:#202020;stroke:#202020;stroke-width:1}
+      .endOuter{fill:#fff;stroke:#202020;stroke-width:2}
+      .endInner{fill:#202020}
+    </style>
+  </defs>
+
+  <rect width="760" height="1080" fill="#ffffff"/>
+  <text class="title" x="380" y="28" text-anchor="middle">Coffee Platform System Architecture</text>
+
+  <!-- Start -->
+  <circle class="dot" cx="380" cy="55" r="10"/>
+  <path class="line" d="M380 65 L380 90"/>
+
+  <!-- Top pipeline -->
+  <rect class="box" x="245" y="90" width="270" height="38" rx="12"/>
+  <text class="boxText" x="380" y="114" text-anchor="middle">User Opens Coffee Platform</text>
+  <path class="line" d="M380 128 L380 153"/>
+
+  <rect class="box" x="259" y="153" width="242" height="38" rx="12"/>
+  <text class="boxText" x="380" y="177" text-anchor="middle">Login / Register Request</text>
+  <path class="line" d="M380 191 L380 216"/>
+
+  <rect class="box" x="271" y="216" width="218" height="38" rx="12"/>
+  <text class="boxText" x="380" y="240" text-anchor="middle">Authentication &amp; Validation</text>
+  <path class="line" d="M380 254 L380 276"/>
+
+  <!-- Role decision -->
+  <path class="plainLine" d="M380 276 L420 316 L380 356 L340 316 Z"/>
+  <text class="smallText" x="380" y="313" text-anchor="middle">User</text>
+  <text class="smallText" x="380" y="329" text-anchor="middle">Role?</text>
+
+  <path class="plainLine" d="M340 316 L265 316 L265 347"/>
+  <path class="plainLine" d="M420 316 L495 316 L495 347"/>
+  <path class="line" d="M380 356 L380 384"/>
+  <path class="line" d="M265 347 L265 374"/>
+  <path class="line" d="M495 347 L495 374"/>
+
+  <text class="smallText" x="298" y="306" text-anchor="middle">Customer</text>
+  <text class="smallText" x="462" y="306" text-anchor="middle">Staff</text>
+
+  <rect class="box" x="178" y="374" width="174" height="38" rx="12"/>
+  <text class="boxText" x="265" y="398" text-anchor="middle">Customer Dashboard</text>
+
+  <rect class="box" x="295" y="384" width="170" height="38" rx="12"/>
+  <text class="boxText" x="380" y="408" text-anchor="middle">Admin Dashboard</text>
+
+  <rect class="box" x="408" y="374" width="174" height="38" rx="12"/>
+  <text class="boxText" x="495" y="398" text-anchor="middle">Owner / Waiter Panel</text>
+
+  <path class="plainLine" d="M265 412 L265 450"/>
+  <path class="plainLine" d="M380 422 L380 450"/>
+  <path class="plainLine" d="M495 412 L495 450"/>
+  <path class="plainLine" d="M265 450 L495 450"/>
+  <path class="line" d="M380 450 L380 478"/>
+
+  <rect class="box" x="247" y="478" width="266" height="44" rx="12"/>
+  <text class="boxText" x="380" y="496" text-anchor="middle">React Frontend Routes</text>
+  <text class="smallText" x="380" y="513" text-anchor="middle">Menu, Cart, Booking, Account, Reports</text>
+  <path class="line" d="M380 522 L380 553"/>
+
+  <rect class="box" x="258" y="553" width="244" height="38" rx="12"/>
+  <text class="boxText" x="380" y="577" text-anchor="middle">Axios API Communication</text>
+  <path class="line" d="M380 591 L380 625"/>
+
+  <!-- Divider 1 -->
+  <line class="divider" x1="2" y1="625" x2="758" y2="625"/>
+
+  <!-- Three backend branches -->
+  <path class="line" d="M120 625 L120 660"/>
+  <path class="line" d="M380 625 L380 660"/>
+  <path class="line" d="M640 625 L640 660"/>
+
+  <rect class="box" x="46" y="660" width="148" height="38" rx="12"/>
+  <text class="boxText" x="120" y="684" text-anchor="middle">Order Module</text>
+  <path class="line" d="M120 698 L120 731"/>
+
+  <rect class="box" x="14" y="731" width="212" height="38" rx="12"/>
+  <text class="boxText" x="120" y="755" text-anchor="middle">Cart &amp; Checkout Handling</text>
+  <path class="line" d="M120 769 L120 802"/>
+
+  <rect class="box" x="42" y="802" width="156" height="38" rx="12"/>
+  <text class="boxText" x="120" y="826" text-anchor="middle">Payment Processing</text>
+  <path class="line" d="M120 840 L120 875"/>
+
+  <rect class="box" x="301" y="660" width="158" height="38" rx="12"/>
+  <text class="boxText" x="380" y="684" text-anchor="middle">Booking Module</text>
+  <path class="line" d="M380 698 L380 731"/>
+
+  <rect class="box" x="274" y="731" width="212" height="38" rx="12"/>
+  <text class="boxText" x="380" y="755" text-anchor="middle">Table &amp; Event Booking</text>
+  <path class="line" d="M380 769 L380 802"/>
+
+  <rect class="box" x="286" y="802" width="188" height="38" rx="12"/>
+  <text class="boxText" x="380" y="826" text-anchor="middle">Refund / Status Logic</text>
+  <path class="line" d="M380 840 L380 875"/>
+
+  <rect class="box" x="568" y="660" width="144" height="38" rx="12"/>
+  <text class="boxText" x="640" y="684" text-anchor="middle">Admin Module</text>
+  <path class="line" d="M640 698 L640 731"/>
+
+  <rect class="box" x="535" y="731" width="210" height="38" rx="12"/>
+  <text class="boxText" x="640" y="755" text-anchor="middle">Menu &amp; User Management</text>
+  <path class="line" d="M640 769 L640 802"/>
+
+  <rect class="box" x="551" y="802" width="178" height="38" rx="12"/>
+  <text class="boxText" x="640" y="826" text-anchor="middle">Reports &amp; Monitoring</text>
+  <path class="line" d="M640 840 L640 875"/>
+
+  <!-- Divider 2 -->
+  <line class="divider" x1="2" y1="875" x2="758" y2="875"/>
+
+  <path class="plainLine" d="M120 875 L120 902"/>
+  <path class="plainLine" d="M380 875 L380 902"/>
+  <path class="plainLine" d="M640 875 L640 902"/>
+  <path class="plainLine" d="M120 902 L640 902"/>
+  <path class="line" d="M380 902 L380 931"/>
+
+  <!-- Bottom pipeline -->
+  <rect class="box" x="266" y="931" width="228" height="38" rx="12"/>
+  <text class="boxText" x="380" y="955" text-anchor="middle">Spring Boot Service Layer</text>
+  <path class="line" d="M380 969 L380 997"/>
+
+  <rect class="box" x="271" y="997" width="218" height="38" rx="12"/>
+  <text class="boxText" x="380" y="1021" text-anchor="middle">MySQL Database Storage</text>
+  <path class="line" d="M380 1035 L380 1055"/>
+
+  <circle class="endOuter" cx="380" cy="1065" r="11"/>
+  <circle class="endInner" cx="380" cy="1065" r="6"/>
+</svg>

@@ -1,0 +1,124 @@
+/* Main dashboard layout */
+
+.owner-layout {
+  --owner-brown-950: #241613;
+  --owner-brown-900: #3e2723;
+  --owner-brown-800: #5a382c;
+  --owner-brown-700: #6b4423;
+  --owner-cream: #f8f1e8;
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background:
+    linear-gradient(rgba(248, 241, 232, 0.90), rgba(245, 236, 226, 0.94)),
+    url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1600&auto=format&fit=crop") center/cover fixed;
+}
+
+/* Main content area */
+
+.owner-content {
+  flex: 1;
+  padding: 24px;
+  overflow-y: auto;
+  backdrop-filter: none;
+  margin-left: 250px;
+  min-height: 100vh;
+}
+
+.owner-success-popup {
+  position: sticky;
+  top: 18px;
+  z-index: 40;
+  width: min(420px, 100%);
+  margin: 0 0 16px auto;
+  padding: 14px 18px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #1f9d55, #157347);
+  color: #f5fff8;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  box-shadow: 0 16px 30px rgba(21, 115, 71, 0.24);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  animation: ownerSuccessSlide 0.25s ease-out;
+}
+
+@keyframes ownerSuccessSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dashboard-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:20px;
+padding: 18px 20px;
+background: rgba(255, 251, 246, 0.88);
+border: 1px solid rgba(107, 68, 35, 0.10);
+border-radius: 20px;
+box-shadow: 0 14px 28px rgba(62, 39, 35, 0.08);
+backdrop-filter: blur(4px);
+}
+
+.dashboard-header h2 {
+  margin: 0;
+  color: var(--owner-brown-900);
+  letter-spacing: 0.01em;
+}
+
+.cafe-switcher{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.cafe-switcher label {
+  color: var(--owner-brown-800);
+  font-weight: 600;
+}
+
+.cafe-switcher select{
+padding:10px 14px;
+border-radius:12px;
+outline:none;
+border: 1px solid rgba(107, 68, 35, 0.18);
+background: #fffaf5;
+color: var(--owner-brown-900);
+box-shadow: none;
+}
+
+.cafe-switcher select:focus {
+  outline: none;
+  border: 1px solid rgba(107, 68, 35, 0.32);
+  box-shadow: 0 0 0 3px rgba(107, 68, 35, 0.10);
+}
+
+/* sidebar */
+.sidebar{
+  margin: 0;
+  flex: 0 0 250px;
+  min-width: 250px;
+}
+
+@media (max-width: 768px) {
+  .owner-content {
+    margin-left: 0;
+  }
+
+  .owner-success-popup {
+    width: 100%;
+  }
+
+  .sidebar {
+    flex: 0 0 auto;
+    min-width: 100%;
+  }
+}

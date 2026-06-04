@@ -1,0 +1,251 @@
+.event-staff-page {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  background: #f6efe8;
+  color: #321a12;
+}
+
+.event-staff-sidebar {
+  background: #3e2723;
+  color: #fff8ed;
+  padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.event-staff-sidebar h2 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.event-staff-profile {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  padding: 1rem;
+  display: grid;
+  gap: 0.35rem;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.event-staff-profile span,
+.event-staff-profile small {
+  color: rgba(255, 248, 237, 0.78);
+}
+
+.event-staff-profile strong {
+  font-size: 1.1rem;
+}
+
+.event-staff-nav {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.event-staff-nav button {
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: #fff8ed;
+  padding: 0.75rem 0.85rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.event-staff-nav button:hover,
+.event-staff-nav button.active {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.event-staff-logout {
+  margin-top: auto;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff8ed;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+}
+
+.event-staff-main {
+  padding: 1.5rem;
+}
+
+.event-staff-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  background: #fffaf6;
+  border: 1px solid #e4d3c6;
+  border-radius: 8px;
+  padding: 1.25rem;
+  box-shadow: 0 10px 24px rgba(62, 39, 35, 0.08);
+}
+
+.event-staff-eyebrow {
+  margin: 0 0 0.35rem;
+  color: #8b5a2b;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.event-staff-header h1,
+.event-staff-section h2,
+.event-staff-card h3,
+.event-staff-checklist h4 {
+  margin: 0;
+}
+
+.event-staff-header p {
+  margin: 0.45rem 0 0;
+  color: #765847;
+}
+
+.event-staff-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(95px, 1fr));
+  gap: 0.75rem;
+}
+
+.event-staff-stats div {
+  background: #f4e5d8;
+  border: 1px solid #dec6b6;
+  border-radius: 8px;
+  padding: 0.85rem;
+  text-align: center;
+}
+
+.event-staff-stats strong {
+  display: block;
+  font-size: 1.6rem;
+}
+
+.event-staff-stats span {
+  color: #765847;
+}
+
+.event-staff-section {
+  margin-top: 1.25rem;
+}
+
+.event-staff-empty {
+  background: #fffaf6;
+  border: 1px solid #e4d3c6;
+  border-radius: 8px;
+  padding: 1rem;
+  color: #765847;
+}
+
+.event-staff-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.event-staff-card {
+  background: #fffaf6;
+  border: 1px solid #e4d3c6;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(62, 39, 35, 0.08);
+}
+
+.event-staff-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.event-staff-card-body {
+  padding: 1rem;
+}
+
+.event-staff-card-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.event-staff-card-top p,
+.event-staff-checklist p {
+  margin: 0.35rem 0 0;
+  color: #765847;
+}
+
+.event-staff-card-top span {
+  height: fit-content;
+  border-radius: 999px;
+  background: #fff0c2;
+  color: #65400f;
+  padding: 0.35rem 0.65rem;
+  font-weight: 700;
+  font-size: 0.82rem;
+}
+
+.event-staff-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+  margin: 1rem 0;
+  color: #5f4637;
+}
+
+.event-staff-checklist {
+  border-top: 1px dashed #d7c2b4;
+  padding-top: 0.85rem;
+}
+
+.event-staff-checklist ul {
+  margin: 0.7rem 0 0;
+  padding-left: 1.2rem;
+  color: #5f4637;
+}
+
+.event-staff-checklist li + li {
+  margin-top: 0.35rem;
+}
+
+.event-staff-actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.event-staff-actions button {
+  border: 0;
+  border-radius: 8px;
+  background: #6b4423;
+  color: #fffaf4;
+  padding: 0.7rem 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.event-staff-actions button:hover {
+  background: #3e2723;
+}
+
+@media (max-width: 780px) {
+  .event-staff-page {
+    grid-template-columns: 1fr;
+  }
+
+  .event-staff-sidebar {
+    position: static;
+  }
+
+  .event-staff-header,
+  .event-staff-card-top {
+    flex-direction: column;
+  }
+
+  .event-staff-stats,
+  .event-staff-meta {
+    grid-template-columns: 1fr;
+  }
+}

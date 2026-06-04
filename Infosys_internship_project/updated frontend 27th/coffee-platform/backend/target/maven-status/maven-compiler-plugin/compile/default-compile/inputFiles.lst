@@ -1,0 +1,15 @@
+C:\Users\RAJASEKHAR_ROCKY\Documents\internship project\coffee-platform\backend\src\main\java\com\cafeconnect\dto\ResetPasswordRequest.java
+C:\Users\RAJASEKHAR_ROCKY\Documents\internship project\coffee-platform\backend\src\main\java\com\cafeconnect\service\AuthService.java
+C:\Users\RAJASEKHAR_ROCKY\Documents\internship project\coffee-platform\backend\src\main\java\com\cafeconnect\controller\AuthController.java
+C:\Users\RAJASEKHAR_ROCKY\Documents\internship project\coffee-platform\backend\src\main\java\com\cafeconnect\dto\AuthResponse.java
+C:\Users\RAJASEKHAR_ROCKY\Documents\internship project\coffee-platform\backend\src\main\java\com\cafeconnect\repository\UserRepository.java
+C:\Users\RAJASEKHAR_ROCKY\Documents\internship project\coffee-platform\backend\src\main\java\com\cafeconnect\config\SecurityConfig.java
+C:\Users\RAJASEKHAR_ROCKY\Documents\internship project\coffee-platform\backend\src\main\java\com\cafeconnect\service\JwtService.java
+C:\Users\RAJASEKHAR_ROCKY\Documents\internship project\coffee-platform\backend\src\main\java\com\cafeconnect\dto\LoginRequest.java
+C:\Users\RAJASEKHAR_ROCKY\Documents\internship project\coffee-platform\backend\src\main\java\com\cafeconnect\config\WebConfig.java
+C:\Users\RAJASEKHAR_ROCKY\Documents\internship project\coffee-platform\backend\src\main\java\com\cafeconnect\dto\RegisterRequest.java
+C:\Users\RAJASEKHAR_ROCKY\Documents\internship project\coffee-platform\backend\src\main\java\com\cafeconnect\entity\User.java
+C:\Users\RAJASEKHAR_ROCKY\Documents\internship project\coffee-platform\backend\src\main\java\com\cafeconnect\CoffeePlatformApplication.java
+C:\Users\RAJASEKHAR_ROCKY\Documents\internship project\coffee-platform\backend\src\main\java\com\cafeconnect\security\JwtAuthenticationFilter.java
+C:\Users\RAJASEKHAR_ROCKY\Documents\internship project\coffee-platform\backend\src\main\java\com\cafeconnect\dto\ForgotPasswordRequest.java
+C:\Users\RAJASEKHAR_ROCKY\Documents\internship project\coffee-platform\backend\src\main\java\com\cafeconnect\service\CustomUserDetailsService.java

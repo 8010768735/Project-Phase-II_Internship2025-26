@@ -1,0 +1,16 @@
+com\cafeconnect\repository\UserRepository.class
+com\cafeconnect\entity\User$Role.class
+com\cafeconnect\dto\AuthResponse.class
+com\cafeconnect\dto\LoginRequest.class
+com\cafeconnect\controller\AuthController.class
+com\cafeconnect\entity\User.class
+com\cafeconnect\dto\ForgotPasswordRequest.class
+com\cafeconnect\dto\ResetPasswordRequest.class
+com\cafeconnect\CoffeePlatformApplication.class
+com\cafeconnect\service\AuthService.class
+com\cafeconnect\service\CustomUserDetailsService.class
+com\cafeconnect\config\SecurityConfig.class
+com\cafeconnect\config\WebConfig.class
+com\cafeconnect\service\JwtService.class
+com\cafeconnect\dto\RegisterRequest.class
+com\cafeconnect\security\JwtAuthenticationFilter.class

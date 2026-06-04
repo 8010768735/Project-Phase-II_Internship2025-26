@@ -1,0 +1,139 @@
+/* section container */
+.reservation-management-section {
+  background: linear-gradient(180deg, #f7efe4 0%, #f2e6d8 100%);
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(88, 55, 34, 0.08);
+  padding: 2rem;
+  border: 1px solid rgba(110, 77, 50, 0.12);
+}
+
+/* section title */
+.reservation-title {
+  font-size: 1.55rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  color: #3c2415;
+}
+
+/* table container */
+.reservations-grid {
+  background: rgba(255, 252, 247, 0.92);
+  border: 1px solid rgba(131, 92, 63, 0.12);
+  border-radius: 20px;
+  padding: 0.85rem;
+  overflow-x: auto;
+}
+
+/* header + rows */
+.reservations-header,
+.reservation-row {
+  display: grid;
+  grid-template-columns: 0.5fr 1.55fr 1.2fr 0.9fr 0.9fr 0.9fr;
+  gap: 0.75rem;
+  align-items: center;
+  min-width: 820px;
+}
+
+/* header style */
+.reservations-header {
+  font-weight: 700;
+  color: #6a452d;
+  padding: 0.65rem 0.4rem 0.9rem;
+  border-bottom: 1px solid rgba(131, 92, 63, 0.14);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.76rem;
+}
+
+/* row */
+.reservation-row {
+  padding: 0.95rem 0.4rem;
+  border-bottom: 1px solid rgba(131, 92, 63, 0.1);
+  font-size: 0.95rem;
+  color: #40291a;
+}
+
+/* status */
+.reservation-status-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 110px;
+  padding: 0.45rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.reservation-status-pill.pending {
+  background: #fff0c2;
+  color: #8a5a00;
+}
+
+.reservation-status-pill.approved,
+.reservation-status-pill.completed {
+  background: #dff5e5;
+  color: #1f7a42;
+}
+
+.reservation-status-pill.declined {
+  background: #fde2e2;
+  color: #b42318;
+}
+
+.reservation-refund-note {
+  margin-top: 0.45rem;
+  color: #7a4b24;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.reservation-feedback-note {
+  margin-top: 0.45rem;
+  color: #5f3b24;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.reservation-status-pill.neutral {
+  background: #ece8e4;
+  color: #5e4a3d;
+}
+
+/* buttons */
+.reservation-btn {
+  border: none;
+  padding: 0.55rem 0.85rem;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.reservation-approve {
+  background-color: #2f8f59;
+  color: white;
+}
+
+.reservation-decline {
+  background-color: #c63f3f;
+  color: white;
+}
+
+
+.reservation-btn:hover {
+  opacity: 0.9;
+}
+
+.error {
+  color: #a03333;
+}
+
+@media (max-width: 640px) {
+  .reservation-management-section {
+    padding: 1.25rem;
+    border-radius: 18px;
+  }
+}

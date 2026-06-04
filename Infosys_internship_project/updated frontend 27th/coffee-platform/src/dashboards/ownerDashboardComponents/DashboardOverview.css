@@ -1,0 +1,246 @@
+.dashboard-overview {
+  padding: 24px;
+  background: #f0e7db;
+  border-radius: 16px;
+  border: 1px solid #e1d3c6;
+  box-shadow: 0 8px 22px rgba(62, 39, 35, 0.08);
+}
+
+.overview-header {
+  margin-bottom: 20px;
+}
+
+.overview-header h2 {
+  margin: 0;
+  color: #3e2723;
+}
+
+.overview-subtitle {
+  margin-top: 8px;
+  color: #6b5b52;
+  line-height: 1.6;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.stat-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(62, 39, 35, 0.08);
+  text-align: left;
+  border: 1px solid #ede3d9;
+}
+
+.stat-card-highlight {
+  background: linear-gradient(135deg, #6b4423, #3e2723);
+}
+
+.stat-card-highlight .stat-label,
+.stat-card-highlight .stat-value {
+  color: #fff;
+}
+
+.stat-label {
+  color: #6b4423;
+  margin: 0 0 12px;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.stat-value {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 800;
+  color: #3e2723;
+}
+
+.stat-meta {
+  margin: 10px 0 0;
+  font-size: 0.9rem;
+  color: #7a6960;
+  line-height: 1.5;
+}
+
+.overview-chart-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.overview-chart-card,
+.recent-activity-card {
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #ede3d9;
+  box-shadow: 0 10px 24px rgba(62, 39, 35, 0.08);
+  padding: 20px;
+}
+
+.overview-chart-card h3,
+.recent-activity-card h3 {
+  margin: 0 0 8px;
+  color: #3e2723;
+}
+
+.chart-copy,
+.recent-activity-header p {
+  margin: 0 0 14px;
+  color: #6b5b52;
+  line-height: 1.6;
+}
+
+.recent-orders-grid-wrap {
+  background: #fbf7f2;
+  border: 1px solid #ede3d9;
+  border-radius: 14px;
+  padding: 0.85rem;
+  overflow-x: auto;
+}
+
+.recent-orders-grid-header,
+.recent-orders-grid-row {
+  display: grid;
+  grid-template-columns: 1.2fr 1.8fr 1.2fr 0.9fr;
+  gap: 0.75rem;
+  align-items: center;
+  min-width: 760px;
+}
+
+.recent-orders-grid-header {
+  padding: 0.65rem 0.4rem 0.9rem;
+  border-bottom: 1px solid #ede3d9;
+  color: #6a452d;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.recent-orders-grid-row {
+  padding: 0.95rem 0.4rem;
+  border-bottom: 1px solid #ede3d9;
+  color: #40291a;
+}
+
+.recent-orders-grid-row:last-child {
+  border-bottom: none;
+}
+
+.recent-orders-customer {
+  font-weight: 700;
+  color: #2d1b11;
+}
+
+.overview-status-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.overview-status-pill.pending {
+  background: #fff4db;
+  color: #9a6700;
+}
+
+.overview-status-pill.approved {
+  background: #e8f5e9;
+  color: #1b5e20;
+}
+
+.overview-status-pill.cancelled,
+.overview-status-pill.declined {
+  background: #ffebee;
+  color: #b71c1c;
+}
+
+.overview-empty {
+  margin: 0;
+  color: #7a6960;
+}
+
+.payment-records-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.payment-record-card {
+  background: linear-gradient(180deg, #fffdf9, #f8efe4);
+  border: 1px solid #ede3d9;
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: 0 12px 26px rgba(62, 39, 35, 0.08);
+}
+
+.payment-record-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.payment-record-top h4 {
+  margin: 0 0 4px;
+  color: #2d1b11;
+}
+
+.payment-record-top p {
+  margin: 0;
+  color: #7a6960;
+}
+
+.payment-record-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.payment-record-label {
+  display: block;
+  margin-bottom: 4px;
+  color: #8b7467;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.payment-record-grid strong,
+.payment-record-footer strong {
+  color: #3e2723;
+}
+
+.payment-record-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px dashed #dbcbbc;
+  color: #7a6960;
+}
+
+@media (max-width: 768px) {
+  .dashboard-overview {
+    padding: 18px;
+  }
+
+  .payment-record-grid {
+    grid-template-columns: 1fr;
+  }
+}

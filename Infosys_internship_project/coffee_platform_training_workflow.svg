@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1280" viewBox="0 0 900 1280">
+  <rect width="900" height="1280" fill="#ffffff"/>
+  <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+    <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#bdbdbd" flood-opacity="0.45"/>
+  </filter>
+  <style>
+    .line{stroke:#8b8b8b;stroke-width:3;fill:none;stroke-linecap:square}
+    .box{fill:#f4f4f4;stroke:#8b8b8b;stroke-width:2.4;filter:url(#softShadow)}
+    .text{font-family:Arial, Helvetica, sans-serif;font-weight:700;fill:#1f1f1f;font-size:21px}
+    .small{font-family:Arial, Helvetica, sans-serif;font-weight:700;fill:#1f1f1f;font-size:19px}
+  </style>
+
+  <path class="line" d="M470 70 L470 1180"/>
+
+  <rect class="box" x="250" y="28" width="440" height="50" rx="8"/>
+  <text class="text" x="470" y="60" text-anchor="middle">React.js Basics Learning Plan</text>
+
+  <path class="line" d="M470 130 L440 130"/>
+  <rect class="box" x="185" y="105" width="255" height="50" rx="8"/>
+  <text class="small" x="312" y="137" text-anchor="middle">HTML, CSS &amp; JavaScript</text>
+
+  <path class="line" d="M470 195 L440 195"/>
+  <rect class="box" x="125" y="170" width="315" height="50" rx="8"/>
+  <text class="small" x="282" y="202" text-anchor="middle">JSX, Components &amp; Props</text>
+
+  <path class="line" d="M470 260 L440 260"/>
+  <rect class="box" x="195" y="235" width="245" height="50" rx="8"/>
+  <text class="small" x="318" y="267" text-anchor="middle">State &amp; Hooks</text>
+
+  <path class="line" d="M470 325 L440 325"/>
+  <rect class="box" x="95" y="300" width="345" height="50" rx="8"/>
+  <text class="small" x="268" y="332" text-anchor="middle">React Router Navigation</text>
+
+  <path class="line" d="M470 390 L440 390"/>
+  <rect class="box" x="145" y="365" width="295" height="50" rx="8"/>
+  <text class="small" x="292" y="397" text-anchor="middle">Axios API Integration</text>
+
+  <path class="line" d="M470 455 L440 455"/>
+  <rect class="box" x="115" y="430" width="325" height="50" rx="8"/>
+  <text class="small" x="278" y="462" text-anchor="middle">Forms &amp; Validation</text>
+
+  <path class="line" d="M470 520 L440 520"/>
+  <rect class="box" x="105" y="495" width="335" height="50" rx="8"/>
+  <text class="small" x="272" y="527" text-anchor="middle">Debugging &amp; Error Handling</text>
+
+  <rect class="box" x="235" y="590" width="470" height="54" rx="8"/>
+  <text class="text" x="470" y="624" text-anchor="middle">Advanced React with Vite Learn / Plan</text>
+
+  <rect class="box" x="250" y="710" width="440" height="50" rx="8"/>
+  <text class="text" x="470" y="742" text-anchor="middle">Spring Boot Backend Learning Plan</text>
+
+  <path class="line" d="M470 735 L395 735"/>
+  <path class="line" d="M395 735 L395 1095"/>
+
+  <path class="line" d="M395 805 L425 805"/>
+  <rect class="box" x="425" y="780" width="300" height="50" rx="8"/>
+  <text class="small" x="575" y="812" text-anchor="middle">Java &amp; OOP Basics</text>
+
+  <path class="line" d="M395 870 L425 870"/>
+  <rect class="box" x="425" y="845" width="365" height="50" rx="8"/>
+  <text class="small" x="608" y="877" text-anchor="middle">REST API Development</text>
+
+  <path class="line" d="M395 935 L425 935"/>
+  <rect class="box" x="425" y="910" width="350" height="50" rx="8"/>
+  <text class="small" x="600" y="942" text-anchor="middle">Controllers, Services &amp; Models</text>
+
+  <path class="line" d="M395 1000 L425 1000"/>
+  <rect class="box" x="425" y="975" width="310" height="50" rx="8"/>
+  <text class="small" x="580" y="1007" text-anchor="middle">Spring Data JPA</text>
+
+  <path class="line" d="M395 1065 L425 1065"/>
+  <rect class="box" x="425" y="1040" width="300" height="50" rx="8"/>
+  <text class="small" x="575" y="1072" text-anchor="middle">MySQL Database</text>
+
+  <path class="line" d="M470 1120 L470 1160"/>
+  <rect class="box" x="190" y="1105" width="270" height="50" rx="8"/>
+  <text class="text" x="325" y="1137" text-anchor="middle">Project Tools</text>
+
+  <path class="line" d="M460 1130 L565 1130"/>
+  <path class="line" d="M565 1130 L820 1130"/>
+  <path class="line" d="M565 1130 L565 1185"/>
+  <path class="line" d="M700 1130 L700 1185"/>
+  <path class="line" d="M820 1130 L820 1185"/>
+
+  <rect class="box" x="500" y="1185" width="130" height="50" rx="8"/>
+  <text class="small" x="565" y="1217" text-anchor="middle">Postman</text>
+
+  <rect class="box" x="645" y="1185" width="110" height="50" rx="8"/>
+  <text class="small" x="700" y="1217" text-anchor="middle">GitHub</text>
+
+  <rect class="box" x="775" y="1185" width="95" height="50" rx="8"/>
+  <text class="small" x="822" y="1217" text-anchor="middle">Maven</text>
+
+  <path class="line" d="M470 1160 L250 1160"/>
+  <path class="line" d="M250 1160 L80 1160"/>
+  <path class="line" d="M250 1160 L250 1215"/>
+  <path class="line" d="M120 1160 L120 1215"/>
+
+  <rect class="box" x="45" y="1215" width="150" height="50" rx="8"/>
+  <text class="small" x="120" y="1247" text-anchor="middle">Razorpay</text>
+
+  <rect class="box" x="215" y="1215" width="170" height="50" rx="8"/>
+  <text class="small" x="300" y="1247" text-anchor="middle">Google Translate</text>
+</svg>

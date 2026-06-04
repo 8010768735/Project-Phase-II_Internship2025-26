@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1240" viewBox="0 0 760 1240">
+  <defs>
+    <marker id="downArrow" markerWidth="18" markerHeight="14" refX="9" refY="13" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L18,0 L9,14 Z" fill="#111827"/>
+    </marker>
+    <style>
+      .title{font-family:Arial,Helvetica,sans-serif;font-size:22px;font-weight:800;fill:#111827}
+      .body{font-family:Arial,Helvetica,sans-serif;font-size:16px;fill:#1f2937}
+      .small{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#1f2937}
+      .caption{font-family:Georgia,serif;font-size:18px;fill:#111}
+      .arrow{stroke:#111827;stroke-width:5;marker-end:url(#downArrow)}
+      .iconLineBlue{stroke:#1f6fb5;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .iconLineGreen{stroke:#4aa15f;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .iconLineGold{stroke:#d69c17;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .iconLinePurple{stroke:#8b5bd6;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .iconLinePink{stroke:#e45c91;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .iconLineCyan{stroke:#2e9ccf;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .iconLineDarkBlue{stroke:#2267a8;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+
+  <rect width="760" height="1240" fill="#ffffff"/>
+
+  <!-- 1 -->
+  <rect x="44" y="32" width="672" height="116" rx="8" fill="#eaf3ff" stroke="#1f6fb5" stroke-width="3"/>
+  <g transform="translate(84 63)">
+    <path class="iconLineBlue" d="M0 0h48l18 18v64H0z"/>
+    <path class="iconLineBlue" d="M48 0v18h18"/>
+    <path class="iconLineBlue" d="M15 43h36M15 62h28"/>
+  </g>
+  <text class="title" x="190" y="72">1. USER LOGIN</text>
+  <text class="body" x="190" y="101">Customer, waiter, owner, or admin enters login</text>
+  <text class="body" x="190" y="124">details to access the Coffee Platform.</text>
+  <line class="arrow" x1="380" y1="150" x2="380" y2="185"/>
+
+  <!-- 2 -->
+  <rect x="44" y="188" width="672" height="132" rx="8" fill="#ecf8ef" stroke="#4aa15f" stroke-width="3"/>
+  <g transform="translate(82 226)">
+    <circle class="iconLineGreen" cx="35" cy="35" r="22"/>
+    <circle fill="#4aa15f" cx="35" cy="35" r="8"/>
+    <path class="iconLineGreen" d="M35 3v-10M35 77v-10M3 35h-10M77 35h-10M12 12l-8-8M66 66l-8-8M12 58l-8 8M66 4l-8 8"/>
+  </g>
+  <text class="title" x="190" y="231">2. AUTHENTICATION &amp; ROLE CHECK</text>
+  <text class="body" x="190" y="261">Backend validates user credentials and assigns</text>
+  <text class="body" x="190" y="284">role-based access for platform modules.</text>
+  <line class="arrow" x1="380" y1="322" x2="380" y2="357"/>
+
+  <!-- 3 -->
+  <rect x="44" y="360" width="672" height="132" rx="8" fill="#fff7e4" stroke="#d69c17" stroke-width="3"/>
+  <g transform="translate(84 397)">
+    <circle class="iconLineGold" cx="35" cy="35" r="31"/>
+    <path class="iconLineGold" d="M17 36l14 14 26-31"/>
+  </g>
+  <text class="title" x="190" y="403">3. MENU AND SERVICE SELECTION</text>
+  <text class="body" x="190" y="433">Customer browses cafe menu, table booking,</text>
+  <text class="body" x="190" y="456">event booking, cart, and account options.</text>
+  <line class="arrow" x1="380" y1="494" x2="380" y2="529"/>
+
+  <!-- 4 -->
+  <rect x="44" y="532" width="672" height="132" rx="8" fill="#f2eaff" stroke="#8b5bd6" stroke-width="3"/>
+  <g transform="translate(83 571)">
+    <path class="iconLinePurple" d="M0 70h70"/>
+    <rect x="10" y="42" width="10" height="28" fill="#8b5bd6"/>
+    <rect x="31" y="25" width="10" height="45" fill="#8b5bd6"/>
+    <rect x="52" y="7" width="10" height="63" fill="#8b5bd6"/>
+  </g>
+  <text class="title" x="190" y="575">4. ORDER AND BOOKING PROCESSING</text>
+  <text class="body" x="190" y="605">System processes cart items, table slots,</text>
+  <text class="body" x="190" y="628">event details, status changes, and totals.</text>
+  <line class="arrow" x1="380" y1="666" x2="380" y2="701"/>
+
+  <!-- 5 -->
+  <rect x="44" y="704" width="672" height="132" rx="8" fill="#fff0f6" stroke="#e45c91" stroke-width="3"/>
+  <g transform="translate(84 743)">
+    <rect class="iconLinePink" x="7" y="0" width="60" height="70" rx="5"/>
+    <path class="iconLinePink" d="M22 18h30M22 35h30M22 52h30"/>
+  </g>
+  <text class="title" x="190" y="747">5. PAYMENT AND CONFIRMATION</text>
+  <text class="body" x="190" y="777">Customer proceeds to checkout and receives</text>
+  <text class="body" x="190" y="800">confirmation for orders or bookings.</text>
+  <line class="arrow" x1="380" y1="838" x2="380" y2="873"/>
+
+  <!-- 6 -->
+  <rect x="44" y="876" width="672" height="148" rx="8" fill="#eaf7fd" stroke="#2e9ccf" stroke-width="3"/>
+  <g transform="translate(84 925)">
+    <path class="iconLineCyan" d="M0 70h70"/>
+    <rect class="iconLineCyan" x="10" y="15" width="50" height="45"/>
+    <path class="iconLineCyan" d="M18 48l12-14 11 9 13-19"/>
+  </g>
+  <text class="title" x="190" y="919">6. DASHBOARD MANAGEMENT</text>
+  <text class="body" x="190" y="949">Waiter, owner, and admin dashboards manage</text>
+  <text class="body" x="190" y="972">orders, menu items, users, bookings, reports,</text>
+  <text class="body" x="190" y="995">and service status updates.</text>
+  <line class="arrow" x1="380" y1="1026" x2="380" y2="1061"/>
+
+  <!-- 7 -->
+  <rect x="44" y="1064" width="672" height="132" rx="8" fill="#edf9f0" stroke="#4aa15f" stroke-width="3"/>
+  <g transform="translate(84 1100)">
+    <rect class="iconLineDarkBlue" x="0" y="0" width="70" height="55" rx="4"/>
+    <path class="iconLineDarkBlue" d="M35 55v17M20 72h30"/>
+    <rect x="14" y="29" width="8" height="16" fill="#3b82f6"/>
+    <rect x="32" y="18" width="8" height="27" fill="#3b82f6"/>
+    <rect x="50" y="34" width="8" height="11" fill="#3b82f6"/>
+  </g>
+  <text class="title" x="190" y="1107">7. FINAL OUTPUT</text>
+  <text class="body" x="190" y="1137">Users receive updated order status, booking</text>
+  <text class="body" x="190" y="1160">history, payment details, and dashboard reports.</text>
+
+  <text class="caption" x="380" y="1226" text-anchor="middle">Fig. System Architecture of Coffee Platform</text>
+</svg>

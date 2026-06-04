@@ -1,0 +1,28 @@
+.sales-analytics-section {
+  background-color: #f0e7db;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.sales-analytics-section h4 {
+  color: #3E2723;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.analytics-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.summary-card {
+  background-color: #fdfdfd;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+}
